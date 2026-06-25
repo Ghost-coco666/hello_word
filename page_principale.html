@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello World — Site Vitrine</title>
+    <link rel="stylesheet" href="page_deco.css">
+</head>
+<body>
+    <header class="nav-wrap">
+        <div class="container nav-container">
+            <a class="brand" href="#home">MonSite</a>
+            <button class="nav-toggle" id="navToggle" aria-label="Ouvrir le menu">☰</button>
+            <nav class="nav" id="mainNav">
+                <a href="#home">Accueil</a>
+                <a href="#features">Services</a>
+                <a href="#about">À propos</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container hero-inner">
+                <div>
+                    <h1 class="title">Créons des choses belles et efficaces</h1>
+                    <p class="lead">Site vitrine moderne, responsive et simple à personnaliser. Présentez vos services clairement et attirez vos clients.</p>
+                    <p>
+                        <a class="btn primary" href="#contact">Demandez un devis</a>
+                        <a class="btn ghost" href="#features">Nos services</a>
+                    </p>
+                </div>
+                <div class="hero-visual card">
+                    <h3>Exemple</h3>
+                    <p>Mockup or visual placeholder — remplacez par une image.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="section">
+            <div class="container">
+                <h2 class="section-title">Nos services</h2>
+                <div class="grid features">
+                    <div class="feature card">
+                        <h3>Design moderne</h3>
+                        <p>Interfaces claires et esthétiques, adaptées à tous les écrans.</p>
+                    </div>
+                    <div class="feature card">
+                        <h3>Développement</h3>
+                        <p>Code maintenable, performant et SEO-friendly.</p>
+                    </div>
+                    <div class="feature card">
+                        <h3>Support</h3>
+                        <p>Mises à jour et monitoring pour garder votre site opérationnel.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section alt">
+            <div class="container">
+                <h2 class="section-title">À propos</h2>
+                <p>Nous sommes une petite équipe dédiée à la création de sites web professionnels pour les indépendants et PME. Nous mettons l'accent sur l'expérience utilisateur et la performance.</p>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <h2 class="section-title">Contact</h2>
+                <div class="grid contact-grid">
+                    <form id="contactForm" class="card contact-form">
+                        <label>Nom<input type="text" name="name" required></label>
+                        <label>Email<input type="email" name="email" required></label>
+                        <label>Message<textarea name="message" rows="5" required></textarea></label>
+                        <div class="form-actions">
+                            <button class="btn primary" type="submit">Envoyer</button>
+                            <button class="btn ghost" type="reset">Réinitialiser</button>
+                        </div>
+                        <p class="form-note" id="formNote" aria-live="polite"></p>
+                    </form>
+
+                    <div class="card contact-info">
+                        <h3>Nous contacter</h3>
+                        <p>Email: contact@monsite.local</p>
+                        <p>Téléphone: 06 12 34 56 78</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>© 2026 MonSite — Tous droits réservés</p>
+            <nav class="footer-nav">
+                <a href="#">Mentions</a>
+                <a href="#">Politique</a>
+            </nav>
+        </div>
+    </footer>
+
+    <script src="page_main.js"></script>
+</body>
+</html>
